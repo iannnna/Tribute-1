@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Léon: The Professional</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="jaliswall.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="main">
+
+        <!-- NAVSLIDER MENU -->
+        <div class="wrapper">
+            <div class="navslider">
+                <div class="nav-toggle">Menu</div>
+            </div>
+            <div class="container">
+                <div class="nav">
+                    <div class="nav-items">
+                        <div class="nav-item">
+                            <a href="#tribute-info">Trailer</a>
+                            <div class="nav-item-wrapper"></div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#third">Movie Info</a>
+                            <div class="nav-item-wrapper"></div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#fourth">Cast Overview</a>
+                            <div class="nav-item-wrapper"></div>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#last">Release</a>
+                            <div class="nav-item-wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- END OF NAVSLIDER MENU -->
+
+
+        <!-- HERO PAGE -->
+
+        <section id="firstpage">
+
+            <!-- STICKY NAV BAR -->
+            <div class="navbar">
+                <div class="items-left">
+                    <img src="./media/music-off.png" id="icon" alt="sound off">
+                    <p>Tribute</p>
+                </div>
+                <div class="items-right">
+                    <p>1994</p>
+                    <a href="https://www.amazon.com/Professional-Jean-Reno/dp/B000LPI68W" target="_blank">Watch the
+                        movie</a>
+                </div>
+            </div>
+
+            <audio id="song">
+                <source src="./media/sound.mp3" type="audio/mp3">
+            </audio>
+            <!--END OF STICKY NAV BAR -->
+
+
+            <!--TITLE -->
+            <h1 id="title">Léon: The Professional</h1>
+            <div id="img-banner">
+                <img src="./images/banner-1.jpg" id="banner" alt="Léon: The Professional">
+            </div>
+            <!--END OF TITLE -->
+        </section>
+
+        <!--END OF HERO PAGE -->
+
+
+        <!-- TRAILER -->
+        <section id="tribute-info">
+            <div class="info-container">
+                <div class="text">
+                    <p>"An absolute masterpiece</p>
+                    <p>with some jaw-dropping</p>
+                    <p>performances"</p>
+                </div>
+            </div>
+            <div id="img-div">
+                <img src="./images/poster.jpg" id="image" alt="Léon: The Professional">
+            </div>
+            <p id="img-caption">Léon: The Professional(1994)</p>
+            <br>
+            <div class="trailer">
+                <a id=trailer href="https://youtu.be/jawVxq1Iyl0" target="_blank">Watch Trailer</a>
+            </div>
+        </section>
+
+        <!-- END OF TRAILER -->
+
+
+        <!-- MOVIE INFO -->
+        <section id="third">
+            <div class="movie-info">
+                <h1>Movie Info</h1>
+                <p>
+                    Mathilda (Natalie Portman) is only 12 years old, but is already familiar with the dark side of life.
+                </p>
+                <p>
+                    Her abusive father
+                    stores drugs for corrupt police officers, and her mother neglects her.
+                </p>
+                <p>Léon (Jean Reno), who lives
+                    down the hall, tends
+                    to his houseplants and works as a hired hitman for mobster Tony (Danny Aiello).
+                </p>
+                <p>When her family is
+                    murdered by crooked
+                    DEA agent Stansfield (Gary Oldman), Mathilda joins forces with a reluctant Léon to learn his deadly
+                    trade and avenge her
+                    family's deaths.
+                </p>
+                <div class="info-image">
+                    <img src="./images/banner.jpg" alt="Léon: The Professional">
+                </div>
+            </div>
+        </section>
+        <!--END OF MOVIE INFO -->
+
+        <!-- CAST OVERVIEW -->
+        <section id="fourth">
+            <h1>Cast Overview</h1>
+            <div class="wall">
+                <div class="wall-item">
+                    <img src="./images/Leon.jpg" alt="Jean Reno as Léon">
+                    <h2>Jean Reno</h2>
+                    <h3>Léon</h3>
+                </div>
+                <div class="wall-item">
+                    <img src="./images/natalie.jpg" alt="Natalie Portman as Mathilda">
+                    <h2>Natalie Portman</h2>
+                    <h3>Mathilda</h3>
+                </div>
+                <div class="wall-item">
+                    <img src="./images/gary.jpg" alt="Gary Oldman as Norman Stansfield">
+                    <h2>Gary Oldman</h2>
+                    <h3>Norman Stansfield</h3>
+                </div>
+                <div class="wall-item">
+                    <img src="./images/danny.jpg" alt="Danny Aiello as Tony">
+                    <h2>Danny Aiello</h2>
+                    <h3>Tony</h3>
+                </div>
+                <div class="wall-item">
+                    <img src="./images/brother.jpg" alt="Carl Matusovich as Mathilda's brother">
+                    <h2>Carl Matusovich</h2>
+                    <h3>Mathilda's brother</h3>
+                </div>
+                <div class="wall-item">
+                    <img src="./images/father.jpg" alt="Michael Badalucco as Mathilda's father">
+                    <h2>Michael Badalucco</h2>
+                    <h3>Mathilda's father</h3>
+                </div>
+            </div>
+        </section>
+        <!--END OF CAST OVERVIEW -->
+
+        <!-- RELEASE -->
+        <section id="last">
+            <div class="last-container">
+                <h4 class="last-title">Directed by:</h4>
+                <h1>Luc Besson</h1>
+                <div class="img-direct">
+                    <img src="./images/director.jpg" class="director-img" alt="Director Luc Besson">
+                    <div class="release-container">
+                        <div class="release">
+                            <h4>Release by:</h4>
+                            <h3>Les Films du Dauphin</h3>
+                        </div>
+                        <div class="release">
+                            <h4>Release Date:</h4>
+                            <h3>September 14 1994(France)</h3>
+                        </div>
+                        <div class="release">
+                            <h4>Budget:</h4>
+                            <h3>16 million USD</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOTER  -->
+            <div class="footer">
+                <p>A tribute</p>
+                <p>Léon: The Professional</h1>
+                <p>A Tribute</p>
+            </div>
+            <!-- END OF FOOTER  -->
+        </section>
+        <!-- END OF RELEASE -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
